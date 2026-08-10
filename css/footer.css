@@ -152,6 +152,10 @@
     max-width: 264px;
     text-align: left;
   }
+  .footer-socials-list {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .subscribe-form {
     flex-direction: column;
     align-items: center;
@@ -180,6 +184,9 @@
     width: 264px;
     margin-right: 0;
   }
+  .subscribe-wrapper {
+    flex-basis: 100%;
+  }
 }
 @media screen and (min-width: 1158px) {
   .page-footer {
@@ -196,6 +203,7 @@
     margin-right: 120px;
   }
   .subscribe-wrapper {
+    flex-basis: auto;
     margin-left: auto;
   }
 }
