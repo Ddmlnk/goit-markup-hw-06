@@ -9,6 +9,8 @@
 
   .page-footer .container {
     display: flex;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /* ===== Logo & text block ===== */
@@ -135,9 +137,6 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .page-footer {
-    max-width: 320px;
-  }
   .page-footer .container {
     flex-direction: column;
     align-items: center;
@@ -151,10 +150,6 @@
     width: 100%;
     max-width: 264px;
     text-align: left;
-  }
-  .footer-socials-list {
-    margin-left: auto;
-    margin-right: auto;
   }
   .subscribe-form {
     flex-direction: column;
@@ -170,8 +165,8 @@
 @media screen and (min-width: 768px) {
   .page-footer {
     max-width: 768px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
   .page-footer .container {
     display: flex;
@@ -193,8 +188,8 @@
     max-width: 1158px;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 141px;
+    padding-right: 141px;
   }
   .page-footer .container {
     flex-wrap: nowrap;
