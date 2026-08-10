@@ -2,7 +2,7 @@
 @media screen {
   .hero-section {
     background-color: rgb(46, 47, 66);
-    max-width: 320px;
+    max-width: 1440px;
     margin: 0 auto;
 
     background-image:
@@ -66,7 +66,6 @@
 }
 @media screen and (min-width: 768px) {
   .hero-section {
-    max-width: 768px;
     padding-top: 112px;
     padding-bottom: 112px;
   }
@@ -84,7 +83,6 @@
 }
 @media screen and (min-width: 1158px) {
   .hero-section {
-    max-width: 1158px;
     padding-top: 188px;
     padding-bottom: 188px;
   }

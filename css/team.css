@@ -93,7 +93,12 @@
   }
   .team-list {
     flex-direction: column;
+    align-items: center;
     gap: 72px;
+  }
+  .team-item {
+    width: 100%;
+    max-width: 264px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -109,7 +114,7 @@
 }
 @media screen and (min-width: 1158px) {
   .team-section {
-    padding: 120px 16px;
+    padding: 120px 0;
     max-width: 1158px;
   }
   .team-list {

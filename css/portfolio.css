@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
+    row-gap: 72px;
   }
 
   /* ===== Portfolio card ===== */
@@ -114,13 +114,13 @@
 }
 @media screen and (min-width: 1158px) {
   .portfolio-section {
-    max-width: 1158x;
+    max-width: 1158px;
     padding: 120px 0;
   }
-  .container {
-    margin: 0 141px;
+  .portfolio-item {
+    width: calc((100% - 2 * 24px) / 3);
   }
   .portfolio-item-img {
-    width: 360px;
+    width: 100%;
   }
 }
