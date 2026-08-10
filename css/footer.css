@@ -9,8 +9,8 @@
 
   .page-footer .container {
     display: flex;
-    padding-left: 0;
-    padding-right: 0;
+    /* padding-left: 0;
+    padding-right: 0; */
   }
 
   /* ===== Logo & text block ===== */
@@ -164,16 +164,19 @@
 }
 @media screen and (min-width: 768px) {
   .page-footer {
-    max-width: 768px;
-    padding-left: 108px;
-    padding-right: 108px;
+    /* padding-left: 108px;
+    padding-right: 108px; */
   }
   .page-footer .container {
+    max-width: 768px;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
   .footer-wrapper {
     width: 264px;
@@ -185,14 +188,18 @@
 }
 @media screen and (min-width: 1158px) {
   .page-footer {
-    max-width: 1158px;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 141px;
-    padding-right: 141px;
   }
   .page-footer .container {
+    max-width: 1440px;
+    margin: 0 auto;
     flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 141px;
+    padding-right: 141px;
+    row-gap: 0;
+    column-gap: 0;
   }
   .footer-wrapper {
     margin-right: 120px;

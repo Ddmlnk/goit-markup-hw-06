@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 72px;
+    row-gap: 48px;
   }
 
   /* ===== Portfolio card ===== */
@@ -111,11 +111,24 @@
   .portfolio-item-img {
     width: 356px;
   }
+  .portfolio-list {
+    flex-direction: row;
+    width: 736px;
+    gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    /* row-gap: 24px; */
+  }
 }
 @media screen and (min-width: 1158px) {
   .portfolio-section {
     max-width: 1158px;
     padding: 120px 0;
+  }
+  .portfolio-list {
+    width: 1128px;
+    row-gap: 48px;
+    /* row-gap: 24px; */
   }
   .portfolio-item {
     width: calc((100% - 2 * 24px) / 3);
